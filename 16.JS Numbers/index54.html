@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Numbers</h2>
+
+<p>JavaScript will try to convert strings to numbers when dividing:</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+<script>
+//divide string
+var x = "100";
+var y = "10";
+var z = x / y;   
+document.getElementById("demo1").innerHTML = z;
+
+//multifly string
+var x = "100";
+var y = "10";
+var z = x * y;   
+document.getElementById("demo2").innerHTML = z;
+
+//subtraction string
+var x = "100";
+var y = "10";
+var z = x - y;   
+document.getElementById("demo3").innerHTML = z;
+
+//In the last example JavaScript uses the + operator to concatenate the strings.(addtion not work)
+var x = "100";
+var y = "10";
+var z = x + y;   
+document.getElementById("demo4").innerHTML = z;
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Numbers</h2>
+
+<p>A number can be an object, but there is no need to create a number as an object.</p>
+
+<p id="demo1"></p>
+
+<p>Numbers and objects cannot be safely compared.</p>
+
+<p id="demo2"></p>
+
+<p>Numbers and objects cannot be safely compared.</p>
+
+<p id="demo3"></p>
+
+
+<script>
+var x = 123;
+var y = new Number(123);
+document.getElementById("demo1").innerHTML = typeof x + "<br>" + typeof y;
+
+//When using the == operator, equal numbers are equal:
+var x = 500;        // x is a number
+var y = new Number(500);  // y is an object
+document.getElementById("demo2").innerHTML = (x==y);
+
+//When using the === operator, equal numbers are not equal, because the === operator expects equality in both type and value.
+var x = 500;        // x is a number
+var y = new Number(500);  // y is an object
+document.getElementById("demo3").innerHTML = (x===y);
+</script>
+
+</body>
+</html>

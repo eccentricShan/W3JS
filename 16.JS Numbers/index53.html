@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Numbers</h2>
+
+<p>If you add two numbers, the result will be a number:</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+
+
+
+<script>
+//If you add two numbers, the result will be a number:
+var x = 10;
+var y = 20;
+var z = x + y;
+document.getElementById("demo1").innerHTML = z;
+
+//If you add two strings, the result will be a string concatenation:
+var x = "10";
+var y = "20";
+var z = x + y;
+document.getElementById("demo2").innerHTML = z;
+
+//If you add a number and a string, the result will be a string concatenation:
+var x = 10;
+var y = "20";
+var z = x + y;
+document.getElementById("demo3").innerHTML = z;
+
+//If you add a string and a number, the result will be a string concatenation:
+var x = "10";
+var y = 20;
+document.getElementById("demo4").innerHTML =
+"The result is: " + x + y;
+
+//
+var x = 10;
+var y = 20;
+document.getElementById("demo5").innerHTML =
+"The result is: " + x + y;
+
+//
+var x = 10;
+var y = 20;
+var z = "30";
+var result = x + y + z;
+document.getElementById("demo6").innerHTML = result;
+</script>
+
+</body>
+</html>
+
+
