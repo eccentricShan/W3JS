@@ -1,0 +1,7 @@
+Most JavaScript programs contain many JavaScript statements.
+The statements are executed, one by one, in the same order as they are written.
+Semicolons separate JavaScript statements.
+Add a semicolon at the end of each executable statement
+Ending statements with semicolon is not required, but highly recommended.
+A good practice is to put spaces around operators ( = + - * / )
+If a JavaScript statement does not fit on one line, the best place to break it is after an operator:

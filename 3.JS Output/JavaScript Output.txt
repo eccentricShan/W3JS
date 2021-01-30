@@ -1,0 +1,35 @@
+*Using innerHTML(index8.html)
+    in body
+        <p id="demo"></p>
+    in script
+        <script>
+            document.getElementById("demo").innerHTML = 5 + 6;
+        </script>
+    common way to display data in HTML.
+
+*Using document.write()-(index9.html)
+    this is used For testing purposes, it is convenient to use document.write():
+        <script>
+            document.write(5 + 6);
+        </script>
+    Using document.write() after an HTML document is loaded, will delete all existing HTML:
+        when used innerHTML to display things you cant write in between tags,
+        like this <p id="demo">is the best</p>
+
+*Using window.alert()(index10.html)
+    You can use an alert box to display data:
+        <script>
+            window.alert(5 + 6);
+        </script>
+    window is optional keyword
+
+*Using console.log()(index11.html)
+    For debugging purposes, you can call the console.log() method in the browser to display data.
+    <script>
+        console.log(5 + 6);
+    </script>
+    
+*JavaScript Print(index12.html)
+    window.print() method in the browser to print the content of the current window.
+    <button onclick="window.print()">Print this page</button>
+
