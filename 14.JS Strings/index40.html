@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+
+
+<script>
+var x = "John";        // x is a string
+var y = new String("John");  // y is an object
+
+document.getElementById("demo1").innerHTML =typeof x + "<br>" + typeof y;
+document.getElementById("demo2").innerHTML = (x==y);
+document.getElementById("demo3").innerHTML = (x===y);
+
+//object cant compair 
+var a = new String("John");  // x is an object
+var b = new String("John");  // y is an object
+document.getElementById("demo4").innerHTML = (a==b);
+document.getElementById("demo5").innerHTML = (a===b);
+
+</script>
+</body>
+</html>

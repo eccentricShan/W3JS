@@ -1,0 +1,26 @@
+JavaScript strings
+    JavaScript strings are used for storing and manipulating text.
+    A JavaScript string is zero or more characters written inside quotes.
+        Ex:- var name="Roshan";
+    You can use single or double quotes:
+
+String Length(index38.html)
+    To find the length of a string, use the built-in length property:
+        Ex:-var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            var sln = txt.length;
+
+Escape Character(index39.html)
+    used the backslash escape character
+
+Breaking Long Code Lines
+    You can break a code line within a text string with a backslash.
+
+Strings Can be Objects(index40,html)
+    strings can also be defined as objects with the keyword new:
+    var firstName = new String("John");
+    Don't create strings as objects. It slows down execution speed.
+    When using the == operator, equal strings are equal:
+    When using the === operator, equal strings are not equal, 
+    because the === operator expects equality in both type and value
+    Objects cannot be compared
+
