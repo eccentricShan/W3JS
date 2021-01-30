@@ -1,0 +1,49 @@
+JavaScript variables are containers for storing data values.
+    variables declared with the var keyword:
+        Ex:- var s = 41;
+    avaScript variables are containers for storing data values.
+
+The Assignment Operator(index13.html)
+    In JavaScript, the equal sign (=) is an "assignment" operator, not an "equal to" operator.
+        Ex:-x = x + 5
+    The "equal to" operator is written like == in JavaScript.
+
+Declaring (Creating) JavaScript Variables(index14.html)
+    Creating a variable in JavaScript is called "declaring" a variable.
+    You declare a JavaScript variable with the var keyword
+        Ex:- var carName;
+    After the declaration, the variable has no value (technically it has the value of undefined).
+    To assign a value to the variable, use the equal sign:
+        Ex:- carName = "Volvo";
+    You can also assign a value to the variable when you declare it:
+        Ex:- var carName = "Volvo";
+
+One Statement, Many Variables
+    You can declare many variables in one statement.
+    Start the statement with var and separate the variables by comma:
+    var person = "John Doe", carName = "Volvo", price = 200;
+
+Value = undefined(index15.html)
+    variables are often declared without a value.
+    A variable declared without a value will have the value undefined.
+
+Re-Declaring JavaScript Variables(index16.html)
+    If you re-declare a JavaScript variable, it will not lose its value.
+    Ex:-var carName = "Volvo";
+        var carName;
+        
+JavaScript Arithmetic
+    As with algebra, you can do arithmetic with JavaScript variables, using operators like = and +:
+        Ex:-var x = 5 + 2 + 3;
+    You can also add strings, but strings will be concatenated:
+        Ex:-var x = "John" + " " + "Doe";
+    If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.
+        Ex:-var x = "5" + 2 + 3;
+            output=523
+        Ex:-var x = 2 + 3 + "5";
+            output=55
+    
+
+
+
+    
