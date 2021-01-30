@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Number Object Properties</h2>
+
+<p>MAX_VALUE returns the largest possible number in JavaScript.</p>
+<p id="demo1"></p>
+
+<p>MIN_VALUE returns the smallest number possible in JavaScript.</p>
+<p id="demo2"></p>
+
+<p>POSITIVE_INFINITY</p>
+<p id="demo3"></p>
+
+<p>POSITIVE_INFINITY is returned on overflow:</p>
+<p id="demo4"></p>
+
+<p>NEGATIVE_INFINITY</p>
+<p id="demo5"></p>
+
+<p>NEGATIVE_INFINITY</p>
+<p id="demo6"></p>
+
+<h2>JavaScript Number Object Properties</h2>
+<p id="demo7"></p>
+
+<p>A number divided by a non-numeric string becomes NaN (Not a Number):</p>
+<p id="demo8"></p>
+
+
+
+<script>
+//MAX_VALUE
+var x = Number.MAX_VALUE;
+document.getElementById("demo1").innerHTML = x;
+//MIN_VALUE
+var x = Number.MIN_VALUE;
+document.getElementById("demo2").innerHTML = x;
+//POSITIVE_INFINITY
+var x = Number.POSITIVE_INFINITY;
+document.getElementById("demo3").innerHTML = x;
+//POSITIVE INFINITY
+var x = 1 / 0;
+document.getElementById("demo4").innerHTML = x;
+//NEGATIVE_INFINITY
+var x = Number.NEGATIVE_INFINITY;
+document.getElementById("demo5").innerHTML = x;
+//NEGATIVE INFINITY
+var x = -1 / 0;
+document.getElementById("demo6").innerHTML = x;
+//NaN
+document.getElementById("demo7").innerHTML = Number.NaN;
+
+//A number divided by a non-numeric string
+document.getElementById("demo8").innerHTML = 100 / "Apple";
+
+
+
+</script>
+
+</body>
+</html>
