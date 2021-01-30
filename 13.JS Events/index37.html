@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="document.getElementById('demo1').innerHTML=Date()">The time is?</button>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+
+<!--the code changes the content of its own element-->
+<button onclick="this.innerHTML = Date()">The time is?</button>
+<br>
+<!--JavaScript code is often several lines long. It is more common to see event attributes calling functions:-->
+<button onclick="displayDate()">The time is?</button>
+<script>
+    function displayDate() {
+      document.getElementById("demo2").innerHTML = Date();
+    }
+    </script>
+
+</body>
+</html>
