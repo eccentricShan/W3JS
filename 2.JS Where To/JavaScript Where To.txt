@@ -1,0 +1,40 @@
+JavaScript Where To
+*The <script> Tag(index4.html)
+    <script>
+    document.getElementById("demo").innerHTML = "My First JavaScript";
+    </script>
+
+*JavaScript in <head>(index5.html)
+    in head
+        <script>
+        function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+        </script>
+    in body
+        <button type="button" onclick="myFunction()">Try it</button>
+
+*JavaScript in <body>(index6.html)
+    in body
+        <button type="button" onclick="myFunction()">Try it</button>
+        <script>
+        function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+        </script>
+
+*External JavaScript(index7.html)
+    External file: myScript.js
+        function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+        } 
+    in body
+        <script src="myScript.js"></script>
+
+****External References***
+    script located in the same folder as the current page
+        <script src="myScript.js"></script>
+    URL to link to a script:
+        <script src="https://www.w3schools.com/js/myScript1.js"></script>
+    script located in a specified folder on the current web site
+        <script src="/js/myScript1.js"></script>
