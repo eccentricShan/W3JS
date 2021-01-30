@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The += Operator, String concatenate, Adding Strings and Numbers </h2>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+<script>
+
+//The addition assignment operator (+=) adds a value to a variable.
+
+var x = 10;
+x += 5;
+document.getElementById("demo1").innerHTML = x;
+
+//The + operator can also be used to add (concatenate) strings.
+
+var txt1 = "John";
+var txt2 = "Doe";
+document.getElementById("demo2").innerHTML = txt1 + " " + txt2;
+
+//The += assignment operator can also be used to add (concatenate) strings:
+
+txt1 = "What a very ";
+txt1 += "nice day";
+document.getElementById("demo3").innerHTML = txt1;
+
+//Adding Strings and Numbers
+
+var x = 5 + 5 + "Hello";
+var y = "5" + 5;
+var z = "Hello" + 5;
+document.getElementById("demo4").innerHTML =
+x + "<br>" + y + "<br>" + z;
+</script>
+
+</body>
+</html>
