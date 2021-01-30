@@ -1,0 +1,14 @@
+JavaScript Arithmetic Operators
+    Operator	Description
+    +	        Addition
+    -	        Subtraction
+    *	        Multiplication
+    **	        Exponentiation (power)
+    /	        Division
+    %	        Modulus (Division Remainder)
+    ++	        Increment
+    --	        Decrement
+
+Operators and Operands
+    The numbers (in an arithmetic operation) are called operands.
+    The operation (to be performed between the two operands) is defined by an operator.
