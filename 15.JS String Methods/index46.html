@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Convert string to upper case:</p>
+
+<button onclick="myFunction1()">Try UpperCase</button>
+<button onclick="myFunction2()">Try LowerCase</button>
+
+<p id="demo1">Hello World!</p>
+<p id="demo2">Hello World!</p>
+
+<script>
+function myFunction1() {
+  var text = document.getElementById("demo1").innerHTML;
+  document.getElementById("demo1").innerHTML = text.toUpperCase();
+}
+function myFunction2() {
+  var text = document.getElementById("demo2").innerHTML;
+  document.getElementById("demo2").innerHTML = text.toLowerCase();
+}
+
+
+</script>
+
+</body>
+</html>

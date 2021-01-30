@@ -1,0 +1,83 @@
+String Methods and Properties
+    JavaScript treats primitive values as objects when executing methods and properties.
+
+String Length(index41.html)
+    The length property returns the length of a string:
+
+Finding a String in a String
+    The indexOf() method returns the index of (the position of) the first occurrence 
+    of a specified text in a string:
+    JavaScript counts positions from zero.
+    The lastIndexOf() method returns the index of the last occurrence of a specified text in a string:
+    Both indexOf(), and lastIndexOf() return -1 if the text is not found.
+    Both methods accept a second parameter as the starting position for the search:
+
+Searching for a String in a String
+    The search() method searches a string for a specified value and returns the position of the match:
+
+Extracting String Parts
+    There are 3 methods for extracting a part of a string:
+        slice(start, end)
+        substring(start, end)
+        substr(start, length)
+    The slice() Method(index42.html)
+        slice() extracts a part of a string and returns the extracted part in a new string.
+        The method takes 2 parameters: the start position, and the end position (end not included).
+        If a parameter is negative, the position is counted from the end of the string.
+        If you omit the second parameter, the method will slice out the rest of the string:
+    The substring() Method(index43.html)
+        substring() is similar to slice().
+        The difference is that substring() cannot accept negative indexes.
+    The substr() Method(index44.html)
+        substr() is similar to slice().
+        The difference is that the second parameter specifies the length of the extracted part.
+        If the first parameter is negative, the position counts from the end of the string.
+
+Replacing String Content(index45.html)
+    The replace() method replaces a specified value with another value in a string
+    By default, the replace() method replaces only the first match
+    By default, the replace() method is case sensitive.
+    To replace case insensitive, use a regular expression with an /i flag (insensitive):
+        Ex:-var txt = str.replace(/MICROSOFT/i,"W3Schools");
+    To replace all matches, use a regular expression with a /g flag
+        Ex:-var n = str.replace(/Microsoft/g, "W3Schools");
+    Note that regular expressions are written without quotes.
+
+Converting to Upper and Lower Case(index46.html)
+    A string is converted to upper case with toUpperCase():
+    A string is converted to lower case with toLowerCase():
+
+The concat() Method(index47.html)
+    The concat() method can be used instead of the plus operator.
+    All string methods return a new string. They don't modify the original string.
+    Formally said: Strings are immutable: Strings cannot be changed, only replaced.
+
+String.trim()(index48.html)
+    The trim() method removes whitespace from both sides of a string:
+
+JavaScript String Padding(index49.html)
+    padStart and padEnd to support padding at the beginning and at the end of a string.
+
+Extracting String Characters(index50.html)
+    There are 3 methods for extracting string characters:
+        charAt(position)
+        charCodeAt(position)
+        Property access [ ]
+    The charAt() Method
+        The charAt() method returns the character at a specified index (position) in a string:
+    The charCodeAt() Method
+        The charCodeAt() method returns the unicode of the character at a specified index in a string:
+        The method returns a UTF-16 code (an integer between 0 and 65535).
+    Property Access
+        property access [ ] on strings:
+
+Converting a String to an Array(index51.html)
+    A string can be converted to an array with the split() method:
+    If the separator is omitted, the returned array will contain the whole string in index [0].
+    If the separator is "", the returned array will be an array of single characters:
+
+    
+
+
+
+
