@@ -1,0 +1,63 @@
+JavaScript variables can hold many data types: numbers, strings, objects and more:
+    Ex:- var length = 16;                               // Number
+        var lastName = "Johnson";                      // String
+        var x = {firstName:"John", lastName:"Doe"};    // Object
+
+JavaScript has dynamic types. This means that the same variable can be used to hold different data types
+
+JavaScript Strings(index21.html)
+    Strings are written with quotes. You can use single or double quotes
+
+JavaScript Numbers(index22.html)
+    JavaScript has only one type of numbers.
+    Numbers can be written with, or without decimal
+    Extra large or extra small numbers can be written with scientific (exponential) notation:
+
+JavaScript Booleans(index23.html)
+    Booleans can only have two values: true or false.
+
+JavaScript Arrays(index24.html)
+    JavaScript arrays are written with square brackets.
+    Array items are separated by commas.
+    The following code declares (creates) an array called cars, containing three items (car names):
+    Example:- var cars = ["Saab", "Volvo", "BMW"];
+
+JavaScript Objects(index25.html)
+    JavaScript objects are written with curly braces {}.
+    Object properties are written as name:value pairs, separated by commas.
+
+The typeof (index26.html)
+    You can use the JavaScript typeof operator to find the type of a JavaScript variable.
+    The typeof operator returns the type of a variable or an expression:
+
+Undefined(index27.html)
+    In JavaScript, a variable without a value, has the value undefined. The type is also undefined.
+    Any variable can be emptied, by setting the value to undefined. The type will also be undefined.
+
+Empty Values
+    An empty value has nothing to do with undefined.
+    An empty string has both a legal value and a type.
+    Example:-var car = "";    // The value is "", the typeof is "string"
+
+Null(index28.html)
+    In JavaScript null is "nothing". It is supposed to be something that doesn't exist.
+    Unfortunately, in JavaScript, the data type of null is an object.
+    You can consider it a bug in JavaScript that typeof null is an object. It should be null.
+    You can empty an object by setting it to null
+    You can also empty an object by setting it to undefined
+
+Primitive Data(index29.html)
+    A primitive data value is a single simple data value with no additional properties and methods.
+    The typeof operator can return one of these primitive types:
+    Ex:-string
+        number
+        boolean
+        undefined
+
+Complex Data(index30.html)
+    The typeof operator can return one of two complex types:
+        function
+        object
+    The typeof operator returns "object" for objects, arrays, and null.
+    The typeof operator does not return "object" for functions.
+
