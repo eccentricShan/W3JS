@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+
+<script>
+
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo1").innerHTML = cars;
+
+//Using new Array()
+var toyotaCars = new Array("Premio", "Vitz", "Prius");
+document.getElementById("demo2").innerHTML = toyotaCars;
+
+//Access the Elements of an Array
+document.getElementById("demo3").innerHTML = cars[0];
+document.getElementById("demo4").innerHTML = toyotaCars[2];
+
+//Changing an Array Element
+cars[0] = "Opel";
+document.getElementById("demo5").innerHTML = cars;
+toyotaCars[1] = "Allion";
+document.getElementById("demo6").innerHTML = toyotaCars;
+
+
+</script>
+
+</body>
+</html>
