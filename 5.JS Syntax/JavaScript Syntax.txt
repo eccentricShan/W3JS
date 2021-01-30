@@ -1,0 +1,61 @@
+JavaScript syntax is the set of rules, how JavaScript programs are constructed
+*JavaScript Values
+    The JavaScript syntax defines two types of values:
+
+    Fixed values:- Fixed values are called Literals.
+    Variable values:-Variable values are called Variables.
+
+*JavaScript Literals
+    The two most important syntax rules for fixed values are:
+        1. Numbers are written with or without decimals
+        2. Strings are text, written within double or single quotes
+
+*JavaScript Variables
+    In a programming language, variables are used to store data values.
+    JavaScript uses the var keyword to declare variables.
+    An equal sign is used to assign values to variables.
+    Ex:- var a;
+         a = 6;
+
+JavaScript Operators
+    JavaScript uses arithmetic operators ( + - * / ) to compute values
+    JavaScript uses an assignment operator ( = ) to assign values to variables
+
+JavaScript Expressions
+    An expression is a combination of values, variables, and operators, which computes to a value.
+    The computation is called an evaluation.
+    Ex:-10 * 5
+        x * 10
+        "John" + " " + "Doe"
+
+JavaScript Identifiers
+    Identifiers are names.
+    In JavaScript, identifiers are used to name variables (and keywords, and functions, and labels).
+    In JavaScript, the first character must be a letter, or an underscore (_), or a dollar sign ($).
+    Subsequent characters may be letters, digits, underscores, or dollar signs.
+
+JavaScript is Case Sensitive
+    All JavaScript identifiers are case sensitive. 
+    The variables lastName and lastname, are two different variables.
+
+JavaScript and Camel Case
+    Hyphens are not allowed in JavaScript. They are reserved for subtractions.
+    Underscore:
+        first_name, last_name, master_card, inter_city.
+    Upper Camel Case (Pascal Case):
+        FirstName, LastName, MasterCard, InterCity.
+    Lower Camel Case:
+        JavaScript programmers tend to use camel case that starts with a lowercase letter:
+        firstName, lastName, masterCard, interCity.
+
+
+
+
+
+
+    
+
+    
+
+
+
