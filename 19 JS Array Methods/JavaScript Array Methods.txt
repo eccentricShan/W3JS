@@ -10,9 +10,27 @@ Popping and Pushing
     The push() method adds a new element to an array (at the end):
     The push() method returns the new array length:
 
-Shifting Elements
+Shifting Elements(index68.html)
     Shifting is equivalent to popping, working on the first element instead of the last.
     The shift() method removes the first array element and "shifts" all other elements to a lower index.
     The shift() method returns the string that was "shifted out":
     The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
-    
+
+Changing Elements
+    The length property provides an easy way to append a new element to an array:
+
+Deleting Elements(index69.html)
+    Since JavaScript arrays are objects, elements can be deleted by using the JavaScript operator delete:
+    Using delete may leave undefined holes in the array. Use pop() or shift() instead.
+
+Splicing an Array
+    The splice() method can be used to add new items to an array:
+    The first parameter (2) defines the position where new elements should be added (spliced in).
+    The second parameter (0) defines how many elements should be removed.
+    With clever parameter setting, you can use splice() to remove elements without leaving "holes" in the array:
+    The first parameter (0) defines the position where new elements should be added (spliced in).
+    The second parameter (1) defines how many elements should be removed.
+    The rest of the parameters are omitted. No new elements will be added.
+
+
+
