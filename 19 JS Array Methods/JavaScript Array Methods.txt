@@ -9,3 +9,10 @@ Popping and Pushing
     The pop() method returns the value that was "popped out":
     The push() method adds a new element to an array (at the end):
     The push() method returns the new array length:
+
+Shifting Elements
+    Shifting is equivalent to popping, working on the first element instead of the last.
+    The shift() method removes the first array element and "shifts" all other elements to a lower index.
+    The shift() method returns the string that was "shifted out":
+    The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
+    
