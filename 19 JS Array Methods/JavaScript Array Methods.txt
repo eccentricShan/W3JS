@@ -1,0 +1,11 @@
+Converting Arrays to Strings(index67.html)
+    The JavaScript method toString() converts an array to a string of (comma separated) array values.
+    The join() method also joins all array elements into a string.
+    It behaves just like toString(), but in addition you can specify the separator
+
+Popping and Pushing
+    it is easy to remove elements and add new elements.
+    Popping items out of an array, or pushing items into an array.
+    The pop() method returns the value that was "popped out":
+    The push() method adds a new element to an array (at the end):
+    The push() method returns the new array length:
